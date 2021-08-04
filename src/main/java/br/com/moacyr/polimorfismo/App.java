@@ -5,9 +5,19 @@ import java.util.Arrays;
 
 public class App {
 
-    public static void main(String[] args) {
-    	PF kleber = new PF("549632513");
+    private static final int DIVISOR = 11;
+
+	public static void main(String[] args) {
     	
-    	System.out.println(kleber.validarDocumento());
+		
+		PF michel = new PF("06020997901");
+		PF zeGotinha = new PF("4654657861132");
+		PF juquinha = new PF("");
+    	
+    	System.out.println(michel.validarDocumento());
+    	System.out.println(zeGotinha.validarDocumento());
+    	System.out.println(juquinha.validarDocumento());
+    	
+    	
     }
 }

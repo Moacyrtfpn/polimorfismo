@@ -14,4 +14,8 @@ public abstract class Pessoa {
 		return documento;
 	}
 	
+	public Integer converteParaInteger(char meuChar) {
+		return Integer.parseInt(String.valueOf(meuChar));
+	}
+	
 }
