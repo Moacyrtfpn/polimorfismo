@@ -10,13 +10,13 @@ public class App {
 	public static void main(String[] args) {
     	
 		
-		PF michel = new PF("06020997901");
 		PF zeGotinha = new PF("4654657861132");
 		PF juquinha = new PF("");
+		PF ribamar = new PF("81198277084"); 
     	
-    	System.out.println(michel.validarDocumento());
     	System.out.println(zeGotinha.validarDocumento());
     	System.out.println(juquinha.validarDocumento());
+    	System.out.println(ribamar.validarDocumento());
     	
     	
     }
